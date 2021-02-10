@@ -1,13 +1,8 @@
 import React from 'react'
-import SampleBanner from '../components/sample/SampleBanner'
+import { Redirect } from 'react-router-dom'
 
 const HomePage: React.FC = () => {
-  return (
-    <div>
-      Custom HomePage
-      <SampleBanner />
-    </div>
-  )
+  return <Redirect to="/activities" />
 }
 
 export default HomePage
